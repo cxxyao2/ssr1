@@ -1,0 +1,16 @@
+<div #content>
+You will see the height&nbsp;{{divHeight()}}&nbsp; of this div after rendering the component.
+</div>
+@let product = product$ | async;
+
+
+<div>
+    <h2>Product Detail</h2>
+    @if(product)
+    {
+        <p>id: &nbsp;{{ product.id }}</p>
+        <p>name: &nbsp;{{ product.name }}</p>
+        <p>price: &nbsp;{{ product.price }}</p>
+    }
+
+</div>
