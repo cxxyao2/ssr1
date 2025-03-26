@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "ssr-demo2",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api"
+    }
+  ],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/ssr-demo2/**"
+    }
+  }
+}
