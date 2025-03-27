@@ -15,3 +15,6 @@ I have intentionally prerendered three products with IDs (1, 2, 3), while other 
 ![prerender](prerender1.png)
 ![ssr1](ssr1.png)
 ![ssr2](ssr2.png)
+
+published on :
+[Vercel SSR](https://ssr1.vercel.app/)
