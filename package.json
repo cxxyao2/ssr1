@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng build && node dist/ssr-demo2/server/server.mjs",
+    "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr": "node dist/ssr-demo2/server/server.mjs",
-    "dev": "ng serve"
+    "serve:ssr:ssr-demo2": "node dist/ssr-demo2/server/server.mjs"
   },
   "private": true,
   "dependencies": {
